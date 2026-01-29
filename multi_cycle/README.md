@@ -203,7 +203,7 @@ verification.
 All test cases executed correctly across multiple clock cycles.
 Waveform analysis confirmed correct FSM sequencing and control signal behavior.
 
-![Waveform](../documentation/images/sim_multi.png)
+![Multi-Cycle Processor](../documentation/images/Mult_processor.png)
 
 ---
 
