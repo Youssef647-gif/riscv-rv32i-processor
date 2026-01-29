@@ -46,8 +46,12 @@ different FSM states, avoiding structural hazards.
 - **S-type**: `sw`  
 - **SB-type**: `beq`  
 
+<<<<<<< HEAD
 ![Multi-Cycle Processor](../documentation/images/Mult_processor.png)
 
+=======
+![FuncComp](documentation/images/![Multi-Cycle](documentation/images/Mult_processor.png))
+>>>>>>> de00b9c (Save current changes before pull)
 
 ---
 
