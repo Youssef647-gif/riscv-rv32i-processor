@@ -1,4 +1,4 @@
-# RISC-V Processor Projects
+# Design and Implementation of a Single-Cycle and Multi-Cycle RISC-V Processor 
 
 This repository contains **two implementations of a custom RISC-V RV32I processor**:
 
