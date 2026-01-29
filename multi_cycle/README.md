@@ -146,7 +146,7 @@ It generates control signals based on the current FSM state and the instruction 
 - Memory Access (MEM)  
 - Write Back (WB)  
 
-![FSM](documentation/images/FSM.png)
+![FSM](../documentation/images/FSM.png)
 
 
 **Generated control signals include**:
