@@ -104,7 +104,7 @@ RISC-V_Processor/
 │  └─ documentation/
 ├─ README.md  <- this global README
 └─ documentation/
-   └─ shared images, diagrams, and waves
+   
 ```
 
 ---
