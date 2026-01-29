@@ -146,7 +146,8 @@ It generates control signals based on the current FSM state and the instruction 
 - Memory Access (MEM)  
 - Write Back (WB)  
 
-![FuncComp](documentation/images/FSM.PNG)
+![FSM](../documentation/images/FSM.png)
+
 
 **Generated control signals include**:
 - `PCWrite`, `PCWriteCond`  
