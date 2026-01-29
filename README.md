@@ -84,7 +84,7 @@ git clone https://github.com/Youssef647-gifs/RISC-V_Processor.git
 2. Open either `single_cycle/` or `multi_cycle/` in a Verilog simulator (ModelSim recommended).  
 3. Set the top module:
    - Single-Cycle → `top_tb_PLS` in `P_initialised.v`  
-   - Multi-Cycle → `tb_multi` top module  
+   - Multi-Cycle → `tb_riscv_mult` top module  
 4. Run the simulation and observe waveforms to verify instruction execution.
 
 ---
@@ -95,11 +95,12 @@ git clone https://github.com/Youssef647-gifs/RISC-V_Processor.git
 RISC-V_Processor/
 ├─ single_cycle/
 │  ├─ README.md
-│  ├─ Verilog files
+│  ├─ design/
 │  └─ documentation/
 ├─ multi_cycle/
 │  ├─ README.md
 │  ├─ Verilog files
+   ├─ tb/
 │  └─ documentation/
 ├─ README.md  <- this global README
 └─ documentation/
@@ -107,6 +108,13 @@ RISC-V_Processor/
 ```
 
 ---
+## 👥 Contributors
+
+**[AIT MOUNA Youssef]**  
+• [NSER El hattab]  
+• [LOULID Anas]  
+
+► Special thanks to Mr. Hamzaoui **(ENSA Marrakech)** for his expert mentorship and guidance.
 
 ### 🚀 Final Note
 
