@@ -5,7 +5,7 @@ This repository contains **two implementations of a custom RISC-V RV32I processo
 1. **Single-Cycle Processor**  
 2. **Multi-Cycle Processor**
 
-Both implementations were designed and verified as part of my projects to explore **processor architecture trade-offs** in **performance, hardware cost, and control complexity**.
+These two RISC-V processor implementations were developed and tested to analyze architectural trade-offs in terms of performance, hardware resource utilization, and control logic complexity.
 
 ---
 
