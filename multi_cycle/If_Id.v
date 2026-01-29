@@ -1,0 +1,15 @@
+module If_Id (
+    input wire clk,
+	 input wire IRWrite,
+    input wire [31:0] pc_current,
+    input wire [31:0] Rd,
+	 output reg [31:0] OLdpc,
+	 output reg [31:0] Instr
+);
+    always @(posedge clk) begin
+        if (IRWrite) begin
+            OLdpc <= pc_current;
+				Instr <= Rd;
+		  end
+    end
+endmodule

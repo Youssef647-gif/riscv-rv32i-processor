@@ -1,0 +1,65 @@
+module fsm_multicycle (
+    input  wire        clk,
+    input  wire        reset,
+    input  wire [6:0]  op, // Opcode de l'instruction en cours
+
+    // Sorties : Tous les signaux de contrôle pour le datapath
+    output wire       PCWrite,
+    output wire       IRWrite,
+    output wire       RegWrite,
+    output wire       MemWrite,
+    output wire [1:0] ALUSrcA,
+    output wire [1:0] ALUSrcB,
+    output wire [1:0] ALUOp,
+    output wire [1:0] ResultSrc,
+    output wire       AdrSrc,
+	 output wire       Pc_up
+);
+   localparam [2:0]
+        S0_Fetch   = 4'b000,
+        S1_Dec = 4'b001,
+        S2_Memad  = 4'b010,
+        S3_Memeread = 4'b011,
+        S4_Memwrb   = 4'b100,
+        S5_Memwrite= 4'b101,
+        S6_Ex= 4'b110,
+        S7_Aluwrb   = 4'b111;
+ reg[2;0] state_current,state_next;
+always @(posedge clk or posedge reset) begin
+       if (reset)
+		 state_current<=S0_Fetch;
+		 else
+		 state_current<=state_next;
+end
+always @(*) begin
+       case (state_current) begin 
+		 S0_Fetch:state_next = S1_Dec;
+		 S1_Dec:case (op) begin
+		             7'b0000011: state_next=S2_Memad;// load
+						 7'b0100011: state_next=S2_Memad;// store 
+						 7'b0110011: state_next=S6_Ex;// type R
+						 default   :state_next=S0_Fetch;
+				  end case 
+		 S2_Memad:case (op) begin
+		             7'b0000011: state_next=S3_Memeread;// load
+						 7'b0100011: state_next=S5_Memwrite;// store
+						default   :state_next=S1_Dec; 
+					 end case  
+		 S3_Memeread:state_next = S4_Memwrb;
+		 S4_Memwrb:state_next = S0_Fetch;
+		 S5_Memwrite: state_next = S0_Fetch;
+		 S6_Ex: state_next = S7_Aluwrb;
+		 S7_Aluwrb: state_next = S0_Fetch;
+end case 
+always @(*) begin
+       case (state_current) begin 
+		 S0_Fetch: AdrSrc = 1'b0;IRWrite = 1'b1;ALUSrcA = 2'b00;ALUSrcA = 2'b10; ALUOp = 2'b00;
+		           ResultSrc = 2'b10; Pc_up = 1'b1;
+		 S2_Memad: ALUSrcA = 2'b10;  ALUSrcB = 2'b01;ALUOp = 2'b00;
+		 S3_Memeread:state_next = S4_Memwrb;
+		 S4_Memwrb:state_next = S0_Fetch;
+		 S5_Memwrite: state_next = S0_Fetch;
+		 S6_Ex: state_next = S7_Aluwrb;
+		 S7_Aluwrb: state_next = S0_Fetch;
+end case 
+end

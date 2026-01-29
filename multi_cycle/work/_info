@@ -1,0 +1,434 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+valu
+Z0 !s110 1769651353
+!i10b 1
+!s100 Lb1`e9LRJUek4^`<Qh_RM3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;X2RPFFfP]_g8G6zI9lNU0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/LENOVO/OneDrive/Desktop/multi
+w1769346162
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/alu.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/alu.v
+!i122 444
+L0 1 40
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1769651353.000000
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valudec_simple
+R0
+!i10b 1
+!s100 XNOTN7]<NTZQD]Q>b=SFI3
+R1
+IPf<d]5?58WIAl=ioIDOA50
+R2
+R3
+Z8 w1763892279
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/aludec_simple.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/aludec_simple.v
+!i122 445
+L0 4 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/aludec_simple.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/aludec_simple.v|
+!i113 1
+R6
+R7
+vController
+R0
+!i10b 1
+!s100 =c3T^?oo0iBM<eIIh59AV0
+R1
+Iol3=Ml5J?3ZYkMXNUR5P]2
+R2
+R3
+w1763903712
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Controller.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Controller.v
+!i122 446
+L0 1 48
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Controller.v|
+!i113 1
+R6
+R7
+n@controller
+vExtended
+Z9 !s110 1769651354
+!i10b 1
+!s100 05EnQzAfc?k8FE^kYL?MK0
+R1
+Iz0:0B@SiNz6fDTUb;Ka1m0
+R2
+R3
+R8
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Extended.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Extended.v
+!i122 447
+Z10 L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Extended.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Extended.v|
+!i113 1
+R6
+R7
+n@extended
+vflip_flop_D
+R9
+!i10b 1
+!s100 hYcf8lVGC<X@^noK;J>[V2
+R1
+IHd0TBl>8>0^B0lGQ0@6l[1
+R2
+R3
+R8
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/flip_flop_D.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/flip_flop_D.v
+!i122 448
+L0 1 9
+R4
+r1
+!s85 0
+31
+Z11 !s108 1769651354.000000
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/flip_flop_D.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/flip_flop_D.v|
+!i113 1
+R6
+R7
+nflip_flop_@d
+vfsm_multicycle
+R9
+!i10b 1
+!s100 NKS<IEfcU@ZKV4J>:?nKC1
+R1
+I7B0;lEAzOj2b6oeCnQ2mg2
+R2
+R3
+w1767296621
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/fsm_multicycle.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/fsm_multicycle.v
+!i122 449
+L0 1 174
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/fsm_multicycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/fsm_multicycle.v|
+!i113 1
+R6
+R7
+vIf_Id
+Z12 !s110 1769651355
+!i10b 1
+!s100 W;g`P]zNI1>g]QnmN27^d0
+R1
+I3>WaaF<X0KA60C@J^>K6A1
+R2
+R3
+w1764235454
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/If_Id.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/If_Id.v
+!i122 450
+L0 1 15
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/If_Id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/If_Id.v|
+!i113 1
+R6
+R7
+n@if_@id
+vinst_data_memory
+R12
+!i10b 1
+!s100 =4]PX;0jVJQ>YAYlkIB3h3
+R1
+I];_cTfj<jIG9K;ggMM?Qg1
+R2
+R3
+w1769634854
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/inst_data_memory.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/inst_data_memory.v
+!i122 451
+L0 1 38
+R4
+r1
+!s85 0
+31
+Z13 !s108 1769651355.000000
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/inst_data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/inst_data_memory.v|
+!i113 1
+R6
+R7
+vInst_dec
+R12
+!i10b 1
+!s100 o>K7n2eh7he=deYzP7Wd62
+R1
+IR4ImiN>oJiQ8SKGlY0m9b0
+R2
+R3
+w1767300360
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Inst_dec.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Inst_dec.v
+!i122 452
+L0 1 19
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Inst_dec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Inst_dec.v|
+!i113 1
+R6
+R7
+n@inst_dec
+vMultiplexer2
+R12
+!i10b 1
+!s100 KL>F56PlPD>cQ[@BlP5BM1
+R1
+I0_:GdieMX]@b7Yl^GEMS^0
+R2
+R3
+w1763901727
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer2.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer2.v
+!i122 453
+L0 3 14
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer2.v|
+!i113 1
+R6
+R7
+n@multiplexer2
+vMultiplexer4
+Z14 !s110 1769651356
+!i10b 1
+!s100 kgcAXZZR1<z4UgK4lZbgP0
+R1
+IChR6[2bU640J[;e@<UfX91
+R2
+R3
+w1763901694
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer4.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer4.v
+!i122 454
+L0 3 17
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Multiplexer4.v|
+!i113 1
+R6
+R7
+n@multiplexer4
+vprogram_counter
+R14
+!i10b 1
+!s100 EX?3fCGL:gQ1oRO5SCgMz1
+R1
+I2EkFkfU:ie4<az5bgW>6T0
+R2
+R3
+Z15 w1763892280
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/program_counter.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/program_counter.v
+!i122 455
+R10
+R4
+r1
+!s85 0
+31
+Z16 !s108 1769651356.000000
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/program_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/program_counter.v|
+!i113 1
+R6
+R7
+vReg_file
+R14
+!i10b 1
+!s100 @CbH=G[g;W5X0E5zg@d>^2
+R1
+I0QQ0okiK@jIG89TWg>b^l2
+R2
+R3
+w1769346138
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_file.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_file.v
+!i122 456
+L0 1 34
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_file.v|
+!i113 1
+R6
+R7
+n@reg_file
+vReg_flip_flop
+R14
+!i10b 1
+!s100 V5;OkV;YKTLh^_NTN?Rg@3
+R1
+Ig_JCFCMTcZI@JKPmSRab?2
+R2
+R3
+R15
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_flip_flop.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_flip_flop.v
+!i122 457
+L0 1 12
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_flip_flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/Reg_flip_flop.v|
+!i113 1
+R6
+R7
+n@reg_flip_flop
+vriscv_mul
+R14
+!i10b 1
+!s100 DY7ho^CSif]V^`]B?ZHQD0
+R1
+I3ZDmZ1zac2IijHf46CQKO0
+R2
+R3
+w1764200080
+8C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/riscv_mul.v
+FC:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/riscv_mul.v
+!i122 458
+L0 1 188
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/riscv_mul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/OneDrive/Desktop/RISC_V_Multycycle/riscv_m/riscv_m/riscv_mul.v|
+!i113 1
+R6
+R7
+vtb_clock
+!s110 1769526835
+!i10b 1
+!s100 co^=;Pb;93`QPb3fkMj^V0
+R1
+IdkJFF@Vkg>oh?=oeDh_`e1
+R2
+R3
+w1769526826
+Z17 8C:\Users\LENOVO\OneDrive\Desktop\multi\tb.v
+Z18 FC:\Users\LENOVO\OneDrive\Desktop\multi\tb.v
+!i122 155
+L0 2 14
+R4
+r1
+!s85 0
+31
+!s108 1769526835.000000
+Z19 !s107 C:\Users\LENOVO\OneDrive\Desktop\multi\tb.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\LENOVO\OneDrive\Desktop\multi\tb.v|
+!i113 1
+R6
+R7
+vtb_riscv
+!s110 1769634915
+!i10b 1
+!s100 FK888VHVhQQVTz4D:dfPd2
+R1
+Ie<P8[m7AlX07agCGgc3YZ2
+R2
+R3
+w1769634873
+R17
+R18
+!i122 315
+L0 3 78
+R4
+r1
+!s85 0
+31
+!s108 1769634914.000000
+R19
+R20
+!i113 1
+R6
+R7
+vtb_riscv_mul
+!s110 1769651357
+!i10b 1
+!s100 ;O7ChE4;JhzDjQH?Z?l4h0
+R1
+IFGm72kT0f[?S0e7I]Jfjl1
+R2
+R3
+w1769651312
+R17
+R18
+!i122 459
+L0 3 73
+R4
+r1
+!s85 0
+31
+!s108 1769651357.000000
+R19
+R20
+!i113 1
+R6
+R7

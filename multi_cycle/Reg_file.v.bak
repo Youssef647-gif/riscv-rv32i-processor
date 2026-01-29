@@ -1,0 +1,30 @@
+`default_nettype none
+//==================== Register_file ====================
+
+module Reg_file (
+    input  [4:0] a1, a2, a3,
+    input  [31:0] wd3,
+    input  we3,
+    input  enable,
+    output signed [31:0] rd1, rd2,
+	 output  signed [31:0] register13
+);
+    reg signed [31:0] register [0:31];     
+    always @(*) begin
+	    if (enable) 
+        register[0] = 32'b0;
+		  register[1] = 32'd11;
+		  register[2] = 32'd0;
+        register[25] = 32'd5; //x25
+        register[16] = 32'd2;
+		  register[3] = 32'd2;
+		  register[8] = 32'd8;
+		  register[13] =32'd0;
+		  register[4] =32'd7;
+        if (we3)
+            register[a3] = wd3;
+    end		
+    assign rd1 = register[a1];
+    assign rd2 = register[a2];
+	 assign register13=register[13];
+endmodule

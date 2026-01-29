@@ -1,0 +1,44 @@
+module riscv_mul(
+       input wire clk,
+		 input wire reset,
+		 output wire [31:0] Result,
+		 output wire carry,
+		 output wire [31:0] pc,
+		 output wire [31:0] instr,
+		 output wire resultsrc,
+		 output wire memwrite,
+		 output wire [2:0] alucontrol,
+		 output wire alusrc,
+		 output wire regwrite,
+		 output wire [1:0] ALUop,
+		 //output wire [31:0] Rd1,Rd2,
+		 output wire [31:0] resWB,
+		 output wire [31:0] valeur,
+		 output wire [31:0] source2
+);
+wire PCWrite;
+wire pc_next;
+wire pc_current;
+wire result;
+wire AdrSrc;
+wire Adr;
+program_counter PCount(
+        .clk(clk),
+        .reset(reset),
+		  .PCWrite(PCWrite),
+        .pc_next(pc_next),
+        .pc_current(pc_current)
+);
+Multiplexer2 MUX1 (
+	  .A(pc_current),
+	  .B(result),
+	  .sel(AdrSrc),
+	  .out(Adr)
+);
+inst_data_memory DM (
+		.mem_read(enb2),
+		.addr(ALUResult),
+		.mem_write(MemWrite),
+		.write_data(rd2),
+		.read_data(Readdata)
+);

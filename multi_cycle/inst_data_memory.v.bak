@@ -1,0 +1,29 @@
+module inst_data_memory(
+    input wire reset,
+    input wire clk,
+    input wire [31:0] read_addr,
+    output wire [31:0] instruction_out
+);
+
+    reg [31:0] I_Mem [0:127];
+    integer k;
+
+    // Lecture combinatoire (adresse >> 2 car chaque instruction = 4 octets)
+    assign instruction_out = I_Mem[read_addr >> 2];
+
+    // Initialisation (chargement mémoire une seule fois)
+    initial begin
+        for (k = 0; k < 128; k = k + 1)
+            I_Mem[k] = 32'b0;
+
+        // R-type
+        I_Mem[0] = 32'b0000000_11001_10000_000_01101_0110011; // add x13, x16, x25
+        I_Mem[1] = 32'b0100000_00011_01000_000_01101_0110011; // sub x13, x8, x3
+        I_Mem[2] = 32'b0000000_00001_00010_010_00100_0100011; // sw x1, 4(x2)
+        I_Mem[3] = 32'b000000000100_00010_010_01101_0000011; // lw x13, 4(x2)
+        I_Mem[4] = 32'b0000000_01101_01101_000_00100_1100011; // beq x13, x13, +8
+		  
+     
+
+    end
+endmodule
