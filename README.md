@@ -99,7 +99,7 @@ RISC-V_Processor/
 │  └─ documentation/
 ├─ multi_cycle/
 │  ├─ README.md
-│  ├─ Verilog files
+│  ├─ rtl/
    ├─ tb/
 │  └─ documentation/
 ├─ README.md  <- this global README
