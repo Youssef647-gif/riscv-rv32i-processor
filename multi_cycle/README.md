@@ -209,9 +209,7 @@ memory[0] = 32'b0000000_00001_00010_010_00100_0100011; // sw x1, 4(x2)
 
 memory[1] = 32'b000000000100_00010_010_01101_0000011; // lw x13, 4(x2)
 
-All test cases executed correctly across multiple clock cycles.
-Waveform analysis confirmed correct FSM sequencing and control signal behavior.
-
+The processor was verified using a simple memory test where a value is stored (sw) and then loaded (lw) from the same memory location. Cycle-by-cycle waveforms confirm correct FSM sequencing, ALU address calculation, memory read/write operations, and register updates. For example, the value of x1 is stored at x2 + 4 and subsequently loaded into x13, demonstrating correct instruction execution across multiple clock cycles.
 ![Waveform](../documentation/images/sim_multi.png)
 
 
