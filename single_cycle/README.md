@@ -1,6 +1,6 @@
 # Single cycle RISC-V Processor
 
-This repository contains the Verilog code for a custom Single cycle RISC-V processor, designed and verified as part of my next big project. The processor supports a subset of RISC-V instructions and includes all major components of a basic processor pipeline. Below, you will find a detailed description of each module and its functionality, as well as an overview of the design and verification process.
+This repository contains the Verilog code for a custom Single cycle RISC-V processor. The processor supports a subset of RISC-V instructions and includes all major components of a basic processor pipeline. Below, you will find a detailed description of each module and its functionality, as well as an overview of the design and verification process.
 
 ---
 
